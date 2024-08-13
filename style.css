@@ -1,0 +1,68 @@
+html{
+    
+    font-family: "Anek Devanagari";
+}
+
+body{
+    background-color:aliceblue;
+}
+#card{
+     display: flex;
+     background-color:#45a7b0;
+     width:600px;
+     height: 550px;
+     border: 3px solid ;
+     border-color: #45a7b0;
+     border-radius: 40px;
+}
+#top-right{
+    background-repeat: no-repeat;
+    margin-right:40px;
+    position: relative;
+    border-radius: 20px;
+    width: 500px;
+    height: 490px;
+    top:30px;
+    border: 1px solid;
+    border-color: #45a7b0;
+    vertical-align: center;
+    background-image: url("web.jpg");
+    background-position: center;
+    overflow: hidden;
+    background-size: cover;
+}
+#top-left{
+    padding:35px;
+    position: relative;
+}
+.button{
+
+    margin-top: 20px;
+    left: 20px;
+    width: 210px;
+    border-radius: 7px;
+    height: 40px;
+    background-color: #0a023d;
+    color: white;
+}
+button:hover{
+    cursor: pointer;
+    background-color:#f0100c;
+    transform: scale(1.02);
+}
+p{
+    font-weight: 600;
+    font-size: 15px;
+}
+ul{
+    padding-left:0;
+    margin-left: 20px;
+}
+#search-bar{
+    width: 200px;
+    height:30px;
+    border-radius: 7px;
+    margin-top:0;
+    background-color: #f2ec91;
+    border-color: #f2ec91;
+}
